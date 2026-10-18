@@ -5,4 +5,5 @@ desc: 全国城市天气查询：直接说「上海天气」「北京天气预�
 help: 直接说「城市名+天气」，全国城市和区县都行，例如：上海天气怎么样 / 北京天气预报 / 温州瑞安天气；也可以发「天气 上海」
 version: v1.0.0
 author: 小南
-repo: ""
+repo: https://github.com/MxyxPlays/astrbot_plugin_city_weather
+
