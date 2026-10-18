@@ -1,0 +1,38 @@
+{
+    "amap_api_key": {
+        "description": "高德开放平台 API Key",
+        "type": "string",
+        "hint": "到 https://lbs.amap.com/ 控制台创建 Key，『服务平台』必须选「Web服务」",
+        "obvious_hint": true
+    },
+    "default_city": {
+        "description": "默认城市",
+        "type": "string",
+        "default": "上海",
+        "hint": "只发「天气」两个字没带城市时，查这里配置的地方"
+    },
+    "forecast_split": {
+        "description": "预报按天分开一条条发",
+        "type": "bool",
+        "default": false,
+        "hint": "关闭（默认）：4 天合并在一条消息里分行显示；开启：今天／明天／后天／大后天各发一条消息"
+    },
+    "only_when_woken": {
+        "description": "群里必须唤醒才回复",
+        "type": "bool",
+        "default": false,
+        "hint": "开启后群里要 @机器人 或带唤醒词才会查天气；关闭则看到「温州瑞安天气」就直接回"
+    },
+    "show_source": {
+        "description": "显示更新时间",
+        "type": "bool",
+        "default": true,
+        "hint": "在回复末尾附上「🕐 更新 21:47」这一行；关掉就完全不显示"
+    },
+    "timeout": {
+        "description": "请求超时（秒）",
+        "type": "int",
+        "default": 20,
+        "hint": "网络不好可以调到 25"
+    }
+}

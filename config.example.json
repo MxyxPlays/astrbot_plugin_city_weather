@@ -1,0 +1,8 @@
+{
+    "amap_api_key": "",
+    "default_city": "上海",
+    "forecast_split": false,
+    "only_when_woken": false,
+    "show_source": true,
+    "timeout": 20
+}
